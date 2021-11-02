@@ -86,3 +86,60 @@ li{
     height: 200px;
     margin-top: 50px;
 }
+
+#hero>h2{
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+#hero input[type='email']{
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 6px;
+
+    
+}
+
+#hero input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #F99602 ;
+}
+
+.btn{
+    padding: 0 20px;
+    font-size: large;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 1rem;
+
+}
+
+/* MATERIALS */
+
+#features{
+    margin-top: 30px;
+}
+
+.grid{
+    display: flex;
+}
+
+#features .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: #F2C50F;
+}
+
+.fa-fire::before{
+    content: "\f06d";
+}
+
+
